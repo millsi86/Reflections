@@ -1,0 +1,26 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+you need to initialize the repository to tell Git that you want to start using
+the folder location as a tracked repository. when you initialize the repository
+git created a .git folder in the repository to store all of the version control
+information. this folder is hidden as it starts with a "."
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+the staging area allows you to individually load files to be included in the next
+commit. this gives a lot of flexibility to only include what is needed. 
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+How do the diagrams help you visualize the branch structure?
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
